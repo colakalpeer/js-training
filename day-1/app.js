@@ -23,3 +23,67 @@
 */
 
 
+
+1.
+//
+
+
+2.
+//Welcome to 30DaysOfJavaScript
+
+
+3.
+/*
+
+Write a multiline comment which says, comments can make code readable, 
+easy to reuse and informative
+
+*/
+
+
+4.
+let myString = "Hello World !";
+let myBoolean = "true";
+let myUndefined;
+let myNull = null;
+
+
+5.
+console.log(typeof myString);
+console.log(typeof myBoolean);
+console.log(typeof myUndefined);
+console.log(myNull);
+
+
+6.
+let a;
+let b;
+let c;
+let d;
+
+
+7.
+let x = 1;
+let y = 2;
+let z = 3;
+let v = 4;
+
+
+8.
+let firstName = "Alper";
+let lastName = "Colak";
+let isMarried = false;
+let country = "Turkey";
+let age = 31;
+
+
+9.
+let firstName1 = "Alper", lastName1 = "Colak", isMarried1 = false, country1 = "Turkey", age1 = 31;
+
+
+10.
+let myAge = 31;
+let yourAge  = 30;
+
+console.log ("I am" + myAge + "years old.");
+console.log ("You are" + yourAge + "years old.");
