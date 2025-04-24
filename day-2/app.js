@@ -240,9 +240,16 @@ console.log(becausePhrase);
 
 
 
+/**Day 2: Exercises: Level 3
 
+1.'Love is the best thing in this world. Some found their love and some are still looking for their love.' You can not
+end a sentence with because because because is a conjunction.
 
+2.Use match() to count the number of because in the following sentence. 'You can not end a sentence with because because because is a conjunction.
 
+3.Clean the following text and find the most frequent word (hint, use replace and regular expression).
+
+*/
 
 
 
