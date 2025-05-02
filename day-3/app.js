@@ -60,11 +60,83 @@ the result confirm it by using console.log()
 
 
 
+/**
+ Level: 1 Solutions
+
+ */
+
+ 1.
+ let firstName = "Alper";
+ let lastName = "Colak";
+ let country = "Turkey";
+ let city = "Ankara";
+ let age = 31;
+ let isMarried = false;
+ let year = 2025;
+
+ console.log(typeof firstName);
+ console.log(typeof lastName);
+ console.log(typeof country);
+ console.log(typeof city);
+ console.log(typeof age);
+ console.log(typeof isMarried);
+ console.log(typeof year);
+
+ 2.
+ console.log(typeof '10' === 10);
+
+ 3.
+ console.log(parseInt('9.8') === 10);
+
+ 4.
+ //truthy values
+ console.log(!!"Merhaba");
+ console.log(!!1);
+ console.log(!![]);
 
 
+ //falsy values
+ console.log(!!"");
+ console.log(!!0);
+ console.log(!!null);
 
+5.
+console.log(4 > 3);
+console.log(4 >= 3);
+console.log(4 < 3);
+console.log(4 <= 3);
+console.log(4 == 4);
+console.log(4 === 4);
+console.log(4 != 4);
+console.log(4 !== 4);
+console.log(4 != '4');
+console.log(4 == '4');
+console.log(4 === '4');
+console.log('python'.length != 'jargon'.length);
 
+6.
+console.log(4 > 3 && 10 < 12);
+console.log(4 > 3 && 10 > 12);
+console.log(4 < 3 || 10 < 12);
+console.log(4 > 3 || 10 > 12);
+console.log(!(4 > 3));
+console.log(!(4 < 3));
+console.log((false));
+console.log((4 > 3 && 10 < 12));
+console.log((4 > 3 && 10 > 12));
+console.log((4 === '4'));
+console.log(!('dragon'.includes('on') && 'python'.includes('on'))); 
 
+7.
+let now = new Date();
+
+console.log(now.getFullYear());
+console.log(now.getMonth() + 1);
+console.log(now.getDate());
+console.log(now.getDay());
+console.log(now.getHours());
+console.log(now.getMinutes());
+console.log(Math.floor(now.getTime() / 1000));
 
 
 
