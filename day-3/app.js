@@ -167,7 +167,6 @@ console.log(Math.floor(now.getTime() / 1000));
 
 
 
-
 /**Day 3: Exercises: Level 2 
  
 1.Write a script thath prompt the user to enter base and height of the triangle and calculate and are of a triangle (area = 0.5 x b x h).
