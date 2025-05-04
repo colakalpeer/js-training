@@ -58,8 +58,6 @@ the result confirm it by using console.log()
 
 
 
-
-
 /**
  Level: 1 Solutions
 
@@ -141,35 +139,9 @@ console.log(Math.floor(now.getTime() / 1000));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**Day 3: Exercises: Level 2 
  
-1.Write a script thath prompt the user to enter base and height of the triangle and calculate and are of a triangle (area = 0.5 x b x h).
+1.Write a script that prompt the user to enter base and height of the triangle and calculate and are of a triangle (area = 0.5 x b x h).
 
     Enter base: 20
     Enter height: 10
@@ -241,22 +213,107 @@ Assume some one lives just hundred years.
 
 
 
+/**
+ Level: 2 Solutions
 
+ */
 
+1.
+let base = parseFloat(prompt("Tabanı girin: "));
+let height = parseFloat(prompt("Yüsekliği girin: "));
+let area = 0.5 * base * height;
+console.log(`Üçgenin alanı ${area}`);
 
+2.
+let sideA = parseFloat(prompt("A kenarını girin: "));
+let sideB = parseFloat(prompt("B kenarını girin: "));
+let sideC = parseFloat(prompt("c kenarını girin "));
+let perimeter = sideA + sideB + sideC;
+console.log(`Üçgenin çevresi ${perimeter}`);
 
+3.
+let length = parseFloat(prompt("Uzunluğu girin: "));
+let width = parseFloat(prompt("Genişliği girin: "));
+let area2 = length * width;
+let perimeter2 = 2 * (length + width);
+console.log(`Dikdörtgenin alanı ${area2}, çevresi ${perimeter2}`);
 
+4.
+let radius = parseFloat(prompt("Yarıçapı girin: "));
+let area3 = Math.PI * radius * radius;
+let circumference = 2 * Math.PI * radius;
+console.log(`Çemberin alanı ${area3}, çevresi ${circumference}`);
 
+5.
+let slope = 2;
+let x_intercept = 1;
+let y_intercept = -2;
+console.log(`Eğim: ${slope}, x-kesim noktası: ${x_intercept}, y-kesim noktası: ${y_intercept}`);
 
+6.
+let x1 = 2, y1 = 2;
+let x2 = 6, y2 = 10;
+let slope2 = (y2 - y1) / (x2 - x1);
+console.log(`Eğim: ${slope2}`);
 
+7.
+//Both slope values were calculated earlier and both have a value of 2. So, they are equal.
 
+8.
+let x_values = [-3, 0, 1, 2, 3];
+for(let x of x_values) {
+    let y = x*x + 6*x + 9;
+    console.log(`x=${x}, y=${y}`);
+}
 
+9.
+let hours = parseFloat(prompt("Saat sayısını girin: "));
+let rate = parseFloat(prompt("Saat başına ücreti girin: "));
+let pay = hours * rate;
+console.log(`Haftalık kazancınız ${pay}`);
 
+10.
+let ad = prompt("İsminizi girin: ");
+let message = (ad.length > 7) ? "İsminiz uzun." : "İsminiz kısa.";
+console.log(message);
 
+11.
+let firstName2 = prompt("Adınızı girin: ");
+let lastName2 = prompt("Soyadınızı girin: ");
+let message2 = (firstName2.length > lastName2.length) ? `Adınız, ${firstName2}, soyadınızdan, ${lastName2}, daha uzun.` : `Soyadınız, ${lastName2}, adınızdan, ${firstName2}, daha uzun.`;
+console.log(message);
 
+12.
+let myAge = 250;
+let yourAge = 25;
+let message3 = `Ben sizden ${myAge - yourAge} yıl daha yaşlıyım.`;
+console.log(message3);
 
+13.
+let birthYear = parseInt(prompt("Doğum yılınızı girin: "));
+let age2 = new Date().getFullYear() - birthYear;
+let message4 = (age2 >= 18) ? `Siz ${age2} yaşındasınız. Araba kullanabilirsiniz.` : `Siz ${age2} yaşındasınız. Araba kullanabilmek için ${18 - age2} yıl beklemeniz gerekiyor.`;
+console.log(message);
 
+14.
+let years = parseFloat(prompt("Kaç yıl yaşadınız: "));
+let seconds = years * 365 * 24 * 60 * 60;
+console.log(`Sen ${seconds} saniye yaşadın.`);
 
+15.
+/*let now = new Date();
+
+let year0 = now.getFullYear();
+let month = now.getMonth() + 1;
+let day = now.getDate();
+let hour = now.getHours();
+let minute = now.getMinutes();
+
+console.log(`YYYY-MM-DD HH:mm: ${year}-${month}-${day} ${hour}:${minute}`);
+console.log(`DD-MM-YYYY HH:mm: ${day}-${month}-${year} ${hour}:${minute}`);
+console.log(`DD/MM/YYYY HH:mm: ${day}/${month}/${year} ${hour}:${minute}`);*/
+
+//The codes overlapped because there are values with the same name as the code blocks above. So I put question 15 in the comment line.
 
 
 
