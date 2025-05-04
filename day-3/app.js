@@ -319,89 +319,6 @@ console.log(`DD/MM/YYYY HH:mm: ${day}/${month}/${year} ${hour}:${minute}`);*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**Day 3: Exercises: Level 3
  
 1.Create a human readable time format using the Date time object. The hour and the minute should be all the time
@@ -409,8 +326,25 @@ two digits (7 hours should be 07 and 5 minutes should be 05)
 
     i. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
+ */
 
 
 
+/**
+ Level: 3 Solutions
 
  */
+
+1.
+/*let now = new Date();
+
+let year = now.getFullYear();
+let month = String(now.getMonth() + 1).padStart(2, '0'); // ayı 2 basamaklı hale getirir
+let day = String(now.getDate()).padStart(2, '0'); // günü 2 basamaklı hale getirir
+let hour = String(now.getHours()).padStart(2, '0'); // saati 2 basamaklı hale getirir
+let minute = String(now.getMinutes()).padStart(2, '0'); // dakikayı 2 basamaklı hale getirir
+
+console.log(`YYYY-MM-DD HH:mm: ${year}-${month}-${day} ${hour}:${minute}`);
+*/
+
+//The codes overlapped again because of the same name and again I used the comment line for answers.
