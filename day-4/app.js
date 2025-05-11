@@ -34,3 +34,49 @@ who is older (me or you). Use prompt("Enter your age:") to get the age as input.
     9 is an odd number
 
  */
+
+
+
+/**
+ Level: 1 Solutions
+
+ */
+
+1.
+let yas = prompt("Yaşınızı girin:");
+if (yas >= 18) {
+    console.log("Ehliyet alabilirsiniz.");
+} else {
+    console.log("Ehliyet alabilmeniz için " + (18 - yas) + " yıl beklemeniz gerekiyor.");
+}
+
+2.
+let myAge = 25;
+let yourAge = prompt("Yaşınızı girin:");
+if (yourAge > myAge) {
+    console.log("Benim yaşım " + myAge + ". Siz benden " + (yourAge - myAge) + " yaş büyüksünüz.");
+} else {
+    console.log("Benim yaşım " + myAge + ". Ben sizden " + (myAge - yourAge) + " yaş büyüğüm.");
+}
+
+3.
+let a = 4;
+let b = 3;
+
+// if else kullanarak
+if (a > b) {
+    console.log(a + ", " + b + " 'den büyük");
+} else {
+    console.log(a + ", " + b + " 'den küçük");
+}
+
+// üçlü operatör kullanarak
+console.log(a > b ? a + ", " + b + " 'den büyük" : a + ", " + b + " 'den küçük");
+
+4.
+let sayi = prompt("Bir sayı girin:");
+if (sayi % 2 == 0) {
+    console.log(sayi + " çift bir sayıdır.");
+} else {
+    console.log(sayi + " tek bir sayıdır.");
+}
