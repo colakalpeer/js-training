@@ -1,4 +1,4 @@
-/**Day 3: Exercises: Level 3
+/**Day 4: Exercises: Level 1
  
 1.Get user input using prompt("Enter your age:"). If user is 18 or older, give feedback: 'You are old enough to drive'
 but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
@@ -80,3 +80,48 @@ if (sayi % 2 == 0) {
 } else {
     console.log(sayi + " tek bir sayıdır.");
 }
+
+
+
+
+/**Day 4: Exercises: Level 2 
+ 
+1.Write a code which can give grades to students according to thiers scores:
+
+    . 80-100, A
+    . 70-89,  B
+    . 60-69,  C
+    . 50-59,  D
+    . 0-49,   F
+
+2.Check if the seasons is Autumn, Winter, Spring or Summer. If the user input is:
+
+    . September, October or November, the season is Autumn.
+    . December, January or February, the seasın is Winter.
+    . March, April or May, the season is spring.
+    . June, July or August, the season is Summer.
+
+3.Check if a day is weekend day or working day. Your script will take day as an input.
+
+    What is the day today ? Saturday
+    Saturday is a weekend.
+
+    What is the day today ? saturDaY
+    Saturday is a weekend.
+
+    What is the day today ? Friday
+    Friday is a working day.
+
+    What is the day today ? FrIDAy
+    Friday is a working day.
+
+*/
+
+
+
+/**
+ Level: 1 Solutions
+
+ */
+
+1.
