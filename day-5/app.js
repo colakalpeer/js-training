@@ -25,3 +25,45 @@
 23.Remove all IT companies
 
 */
+
+
+
+
+/**
+ Level: 1 Solutions
+
+ */
+
+1.
+const arr = [];
+
+2.
+const numbers = [12, 0.29, 3.471, 100, 641, 0.9];
+
+3.
+console.log(numbers.length);
+
+4.
+const firstItem = numbers[0];
+
+const middleItem = numbers[Math.floor(numbers.length / 2)];
+
+const lastItem = numbers[numbers.length -1];
+
+5.
+const mixedDataTypes = [12, true, "Alper", 0.21, "", false, 311];
+
+console.log(mixedDataTypes.length);
+
+6.
+let ItCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+console.log(ItCompanies);
+
+console.log(ItCompanies.length);
+
+const firstItem2 = ItCompanies[0];
+
+const middleItem2 = ItCompanies[Math.floor(ItCompanies.length / 2)];
+
+const lastItem2 = ItCompanies[ItCompanies.length -1];
