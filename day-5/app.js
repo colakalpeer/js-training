@@ -58,12 +58,72 @@ console.log(mixedDataTypes.length);
 6.
 let ItCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
 
+7.
 console.log(ItCompanies);
 
+8.
 console.log(ItCompanies.length);
 
+9.
 const firstItem2 = ItCompanies[0];
 
 const middleItem2 = ItCompanies[Math.floor(ItCompanies.length / 2)];
 
 const lastItem2 = ItCompanies[ItCompanies.length -1];
+
+10.
+console.log(ItCompanies);
+
+11.
+console.log(ItCompanies.map(company => company.toUpperCase()));
+
+12.
+let sentence = ItCompanies.join(', ') + ' are big IT companies ';
+console.log(sentence);
+
+13.
+console.log(ItCompanies.includes("Facebook")); //true
+
+console.log(ItCompanies.includes("YouTube")); //false
+
+14.
+let filteredCompanies = [];
+
+for (let company of ItCompanies) {
+    let count = 0;
+    for (let char of company) {
+        if (char.toLowerCase() === 'o') {
+            count++;
+        }
+    }
+    if (count >= 2) {
+        filteredCompanies.push(company);
+    }
+}
+
+console.log(filteredCompanies);
+
+15.
+ItCompanies.sort();
+
+console.log(ItCompanies);
+
+16.
+ItCompanies.reverse();
+
+console.log(ItCompanies);
+
+17.
+let firstThreeCompanies = ItCompanies.slice(0, 3);
+
+console.log(firstThreeCompanies);
+
+18.
+let lastThreeCompanies = ItCompanies.slice(-3);
+
+console.log(lastThreeCompanies);
+
+19.
+
+
+20.
