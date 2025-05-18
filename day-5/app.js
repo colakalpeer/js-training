@@ -127,3 +127,18 @@ console.log(lastThreeCompanies);
 
 
 20.
+ItCompanies.shift();
+
+console.log(ItCompanies);
+
+21.
+
+22.
+ItCompanies.shift();
+
+console.log(ItCompanies);
+
+23.
+ItCompanies.length = 0;
+
+console.log(ItCompanies);
