@@ -207,3 +207,30 @@ console.log(shoppingCart);
 const updatedCart = shoppingCart.map(item => item === 'Tea' ? 'GreenTea' : item); // 'Tea' elemanımız 'GreenTea' olarak güncellendi.
 
 console.log(updatedCart);
+
+
+
+
+/**Day 5: Exercises: Level 3
+ 
+1.Aşağıdaki dizide 10 öğrencinin yaşı vardır:
+
+const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+    .Diziyi sıralayın ve en küçük ve en büyük yaşı bulun
+
+    .Medyan yaşı bulun(dizinin ortasındaki eleman ama ortada iki eleman varsa elemanlar ikiye bölünür)
+
+    .Ortalama yaşı bulun(tüm elemanlar eleman sayısına bölünür)
+
+    .Yaş aralığını bulun (maks - min)
+
+    .abs() metodunu kullanarak (min - ortalama) ve (maks - ortalama) değerlerini karşılaştırın,
+
+
+
+
+
+
+
+*/  
