@@ -142,3 +142,68 @@ console.log(ItCompanies);
 ItCompanies.length = 0;
 
 console.log(ItCompanies);
+
+
+
+
+/**Day 5: Exercises: Level 2 
+ 
+1.Ayrı bir country.js dosyası oluşturun ve country dizisini bu dosyaya kaydedin, ayrı bir web_techs.js dosyası oluşturun ve 
+webTechs dizisini bu dosyaya kaydedin. Daha sonra Main.js dosyasından her iki dosyaya da erişim sağlayın.
+
+    1.Önce bütün noktalama işaretlerini kaldırın ve string ifadeyi dizi olarak değiştirin ve dizideki kelime sayısını sayın.
+
+    2.Aşağıdaki alışveriş sepetindeki elemanları ekleyin, silin , düzenleyin.
+
+        Eğer alışveriş sepetine zaten 'Meat' eklenmemişse en başa ekleyin.
+
+        Eğer alışveriş sepetine zaten 'Sugar' eklenmemişse en sona ekleyin.
+
+        Eğer bala alerjiniz varsa 'Honey' elemanını diziden silin.
+
+        'Tea' elemanını 'Green Tea' olarak güncelleyin.
+
+*/
+
+
+
+
+/**
+ Level: 2 Solutions
+
+ */
+
+1.
+let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.';
+
+let cleanText = text.replace(/[^\w\s]/g, '');
+
+let words = cleanText.split(/\s+/);
+
+console.log(words);
+
+console.log(words.length);
+
+
+2.
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+
+shoppingCart.unshift('Meat'); // 'Meat' liste başına eklendi.
+
+console.log(shoppingCart);
+
+shoppingCart.push('Sugar'); // 'Sugar' liste sonuna eklendi.
+
+console.log(shoppingCart);  
+
+let index = shoppingCart.indexOf('Honey');
+
+if (index !== -1 ) {
+    shoppingCart.splice(index, 1);  // 'Honey' listeden çıkarıldı.
+}
+
+console.log(shoppingCart);
+
+const updatedCart = shoppingCart.map(item => item === 'Tea' ? 'GreenTea' : item); // 'Tea' elemanımız 'GreenTea' olarak güncellendi.
+
+console.log(updatedCart);
