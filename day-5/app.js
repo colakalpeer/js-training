@@ -227,10 +227,35 @@ const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
     .abs() metodunu kullanarak (min - ortalama) ve (maks - ortalama) değerlerini karşılaştırın,
 
-
-
-
-
-
-
 */  
+
+
+
+
+/**
+ Level: 2 Solutions
+
+ */
+
+ 1.
+const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+ages.sort(); 
+
+console.log(ages);
+
+function calculateAverage (ages) {
+    const sum = ages.reduce((acc, age) => acc + age, 0);
+    return sum / ages.length;
+}
+
+console.log(calculateAverage(ages));
+
+function calculateAgeRange(ages2) {
+    const maxAge = Math.max(...ages2);
+    const minAge = Math.min(...ages2);
+    return maxAge - minAge;
+}
+const ages2 = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+console.log(calculateAgeRange(ages2));
+
