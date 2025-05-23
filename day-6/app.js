@@ -1,4 +1,4 @@
-/**Day 5: Exercises: Level 1
+/**Day 6: Exercises: Level 1
 
 const countries = [
   'Albania',
@@ -101,3 +101,21 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     5j2khz
 
 */
+
+/**
+ Level: 1 Solutions
+
+ */
+
+1.
+let i = 0;
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+
+let i2 = 0;
+do {
+    console.log(i2);
+    i2++
+} while (i2 <= 5)
