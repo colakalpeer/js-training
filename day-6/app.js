@@ -108,14 +108,50 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
  */
 
 1.
-let i = 0;
-while (i <= 10) {
+// let i = 0;
+
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// let i2 = 0;
+// do {
+//     console.log(i2);
+//     i2++
+// } while (i2 <= 5) 
+
+2.
+let i = 10;
+
+while (i >= 0) {
   console.log(i);
-  i++;
+  i--;
 }
 
-let i2 = 0;
+let j = 10;
+
 do {
-    console.log(i2);
-    i2++
-} while (i2 <= 5)
+  console.log(j);
+  j--;
+} while (j >= 0);
+
+3.
+let n = 10;
+
+for (let i = 0; i <= n; i++) {
+  console.log(i);
+}
+
+4.
+let stars = "";
+
+for (let i = 1; i <= 7; i++) {
+  stars += "#";
+  console.log(stars);
+}
+
+5.
+for (let i = 0; i <= 10; i++) {
+ console.log(i + " x " + i + " = " + (i * i)); 
+}
